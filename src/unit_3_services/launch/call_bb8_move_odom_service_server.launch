@@ -1,0 +1,5 @@
+<launch>
+    <!-- Call move_bb8_odom Service Server -->
+    <node pkg="unit_3_services" type="bb8_move_odom_service_client.py" name="service_move_bb8_odom_client" output="screen">
+    </node>
+</launch>

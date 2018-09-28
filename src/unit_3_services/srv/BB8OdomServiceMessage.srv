@@ -1,0 +1,3 @@
+float64 distance       # The distance to move
+---
+bool success         # Did it achieve it?
