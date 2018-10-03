@@ -1,0 +1,5 @@
+<launch>
+    <!-- Call move_robot_circle Service Server -->
+    <node pkg="move_robot" type="move_robot_circle_service_client.py" name="service_move_robot_circle_client" output="screen">
+    </node>
+</launch>
